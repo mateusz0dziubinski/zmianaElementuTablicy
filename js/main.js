@@ -1,27 +1,25 @@
-function mojaFunckja()
-{
-    var element1 = 11;
-    var element2 = 9;
-    var element3 = 12;
+function mojaFunckja(tab){
 
-    if(element1 > 10){
-        element1 = 5;
+    var tab = [2,3,155];
+    
+    if(tab[0] > 10){
+        tab[0] = 5;
     }
 
-    if(element2 > 10){
-        element2 = 5;
+    if(tab[1] > 10){
+        tab[1]  = 5;
     }
 
-    if(element3 > 10){
-       element3 = 5;
+    if(tab[2] > 10){
+        tab[2] = 5;
     }
-
-    tab = [element1, element2, element3];
 
     console.log(tab);
+
 }
 
 mojaFunckja();
+
 
 
 
